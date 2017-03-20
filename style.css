@@ -34,7 +34,7 @@ h1 {
     color: white;
 }
 
-@media (min-width: 768px){
+@media (min-width: 768px) {
     .navbar-nav {
         margin: 0 auto;
         display: table;
@@ -43,7 +43,7 @@ h1 {
         width: 100%;
     }
 
-    .navbar-nav>li {
+    .navbar-nav > li {
         display: table-cell;
         float: none;
         text-align: center;
@@ -66,4 +66,18 @@ h1 {
 
 #features {
     text-align: center;
+}
+
+.product-img {
+    display: block;
+    margin: auto;
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    -webkit-transition: all .6s ease;
+    margin-bottom: 1rem;
+}
+
+.product-img:hover {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
 }
