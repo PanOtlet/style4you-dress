@@ -33,7 +33,7 @@ h1 {
     color: #6262e6;
 }
 
-.navbar-light .navbar-nav .google-plus .nav-link:focus, .navbar-light .navbar-nav .google-plus .nav-link:hover {
+.navbar-light .navbar-nav .instagram .nav-link:focus, .navbar-light .navbar-nav .instagram .nav-link:hover {
     border-bottom: solid red 2px;
     color: red;
 }
@@ -114,4 +114,14 @@ h1 {
 .product-img:hover, table img:hover {
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
+}
+
+.swiper-container {
+    width: 100%;
+    height: 30rem;
+}
+
+.testimonials-container {
+    width: 50%;
+    height: 10rem;
 }
