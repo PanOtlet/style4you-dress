@@ -12,6 +12,7 @@ h1 {
 .navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .nav-link {
     background-color: #FF338B;
     border-bottom: solid white 2px;
+    font-weight: bold;
 }
 
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
@@ -23,19 +24,37 @@ h1 {
     transition: all 300ms ease-in-out;
 }
 
+.navbar-light .navbar-nav .facebook .nav-link, .navbar-light .navbar-nav .facebook .nav-link {
+    color: white;
+    background-color: blue;
+}
+
+.navbar-light .navbar-nav .twitter .nav-link, .navbar-light .navbar-nav .twitter .nav-link {
+    color: white;
+    background-color: #6262e6;
+}
+
+.navbar-light .navbar-nav .instagram .nav-link, .navbar-light .navbar-nav .instagram .nav-link {
+    color: white;
+    background-color: red;
+}
+
 .navbar-light .navbar-nav .facebook .nav-link:focus, .navbar-light .navbar-nav .facebook .nav-link:hover {
     border-bottom: solid darkblue 2px;
     color: darkblue;
+    background-color: lightpink;
 }
 
 .navbar-light .navbar-nav .twitter .nav-link:focus, .navbar-light .navbar-nav .twitter .nav-link:hover {
     border-bottom: solid #6262e6 2px;
     color: #6262e6;
+    background-color: lightpink;
 }
 
 .navbar-light .navbar-nav .instagram .nav-link:focus, .navbar-light .navbar-nav .instagram .nav-link:hover {
     border-bottom: solid red 2px;
     color: red;
+    background-color: lightpink;
 }
 
 .navbar-light .navbar-nav .active .nav-link:focus, .navbar-light .navbar-nav .active .nav-link:hover {
@@ -44,6 +63,7 @@ h1 {
 
 .navbar-light .navbar-nav .active .nav-link {
     background-color: #000;
+    font-weight: normal;
 }
 
 .navbar-light .navbar-nav .active > .nav-link,
